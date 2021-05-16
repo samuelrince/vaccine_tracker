@@ -7,7 +7,7 @@ from vaccine_tracker.utils import notify
 
 
 DEFAULT_SLEEP_TIME = 60 * 10    # 10 minutes
-URL = 'https://www.doctolib.fr/vaccination-covid-19/orsay?force_max_limit=2&ref_visit_motive_ids[]=6970&ref_visit_motive_ids[]=7005'
+URL = 'https://www.doctolib.fr/vaccination-covid-19/orsay?force_max_limit=1&ref_visit_motive_ids[]=6970&ref_visit_motive_ids[]=7005'
 
 
 if __name__ == '__main__':
